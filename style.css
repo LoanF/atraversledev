@@ -1,0 +1,317 @@
+html
+{
+  font-family: 'Anton', sans-serif;
+  background-color: rgb(211, 211, 211);
+}
+
+body
+{
+    background-color: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+}
+
+p
+{
+  margin: 10px;
+  text-align: center;
+}
+
+#logo
+{
+  width: 350px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#accueil
+{
+  width: 200px;
+  height: 50p;
+  padding:8px 12px;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  background:0;
+  color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s;
+  font-weight: bold;
+}
+
+#accueil:hover
+{
+  background:#78788c;
+  color:#fff
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* Menu */
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+  background-color: #111;
+}
+
+#menu .active {
+  background-color: #78788c;
+}
+
+#panel
+{
+  position: relative;
+ float:right;
+}
+
+/* Pied de page */
+
+#footer
+{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* En-tête */
+
+img
+{
+  width: 100%;
+}
+
+/* Contact */
+
+h2
+{
+  margin:10px 0;
+  padding-bottom:10px;
+  width:350px;
+  color:#78788c;
+  border-bottom:3px solid #78788c
+}
+
+.form
+{
+  width:750px;
+  height:auto;
+  background:#e6e6e6;
+  border-radius:8px;
+  box-shadow:0 0 40px -10px #000;
+  margin:calc(40% - 450px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family: 'Anton', sans-serif;
+  position:relative
+}
+
+input, select, textarea
+{
+  width:100%;
+  padding:10px;
+  margin-bottom: 2px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family: 'Anton', sans-serif;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
+}
+
+input:focus, select:focus, textarea:focus
+{
+  border-bottom:2px solid #78788c
+}
+
+.form button
+{
+  float:right;padding:8px 12px;
+  margin:8px 0 0;font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  background:0;
+  color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s
+}
+
+.form button:hover
+{
+  background:#78788c;
+  color:#fff
+}
+
+.contact
+{
+  position:absolute;
+  bottom:-15px;
+  right:-20px;
+  background:#50505a;
+  color:#fff;
+  width:320px;
+  padding:16px 4px 16px 0;
+  border-radius:6px;
+  font-size:13px;
+  box-shadow:10px 10px 40px -14px #000
+}
+
+span
+{
+  margin:0 5px 0 15px
+}
+
+/* Formation */
+
+#img
+{
+  width: 150px;
+  height: auto;
+}
+
+article
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.forma
+{
+  background: #e6e6e6;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  text-align: center;
+  border-radius:8px;
+  box-shadow: 5px 2px 10px #78788c;
+}
+
+.forma:hover
+{
+  box-shadow: inset 5px 2px 15px #78788c;
+}
+
+.forma:target
+{
+  box-shadow: inset 5px 2px 15px #78788c;
+}
+
+/* Forma2 */
+
+.forma2
+{
+  background: #beebfd;
+  width: 200px;
+  height: 110px;
+  padding: 5px;
+  text-align: center;
+  border-radius:8px;
+  box-shadow: 5px 2px 10px #58a3b9;
+}
+
+.forma2 h3
+{
+  margin: 10px;
+}
+
+.forma2 p
+{
+  margin: 3px;
+}
+
+.off
+{
+  margin:8px 0 0;font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  background:0;
+  color:#5a5a6e;
+  cursor:default;
+  transition:all .3s
+}
+
+.on
+{
+  margin:8px 0 0;font-family:'Montserrat',sans-serif;
+  border:2px solid red;
+  background:0;
+  color:red;
+  cursor:pointer;
+  transition:all .3s
+}
+
+.on:hover
+{
+  background: red;
+  color: white;
+}
+
+/* Pannel */
+
+#liste
+{
+  width:750px;
+  height:auto;
+  background:#e6e6e6;
+  border-radius:8px;
+  box-shadow:0 0 40px -10px #000;
+  margin:calc(40% - 450px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family: 'Anton', sans-serif;
+  position:relative
+}
+
+td, th
+{
+    border: 1px solid black;
+}
+table
+{
+    border-collapse: collapse;
+    width:500px;
+}
+
+#zoneedit
+{
+  width: 38px;
+  padding-left: 5px;
+}
+
+#delete
+{
+  color: red;
+}
+
+#edit
+{
+  color: green;
+}
